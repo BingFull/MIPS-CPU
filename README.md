@@ -25,12 +25,12 @@ Fully organized according to the circuit given by `Mars`' `MIPS X-Ray` function 
 ### Pipeline CPU with Bubble Insertion Method
 Used `Bubble Insertion` method to prevent data and control hazard.
 #### Overview
-  ![#5](https://github.com/BingFull/MIPS-CPU/blob/master/Screenshots/Pipeline%20CPU.png)
+  ![#5](https://raw.githubusercontent.com/BingFull/MIPS-CPU/Pipeline-CPU-with-data-redirection/Screenshots/Pipeline%20CPU%20support%20for%20multi%20level%20interruption.png)
 
 ### Pipeline CPU with Data Redirection Method
 Used `Data Redirection` method to prevent data hazard, optimized so that it runs less cycles compared to `Bubble Insertion` method.
 
-This pipeline CPU is equipped with a `CP0` which handles exception(interruption), with 3 intteruption source buttons named `ExpSrc0` `ExpSrc1` `ExpSrc2`
+This pipeline CPU is equipped with a `CP0` which handles exception(interruption), with 3 intteruption source buttons named `1` `2` `3`
 
 The CPU runs into exception mode on clicking one of the buttons, running an exception service program
 which displays `1` or `2` or `4` determined by the source number of the clicked button.
