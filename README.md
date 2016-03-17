@@ -1,7 +1,7 @@
 # MIPS-CPU
 ###### By : BingFull @ HUST
 ###### Email : U201314977@hust.edu.cn
-A Single Cycle CPU for 8 MIPS instructions
+A Simulative CPU Running on MIPS Instruction System Based on Logisim.
 
 ### ALU Circuit
 ##### Description
